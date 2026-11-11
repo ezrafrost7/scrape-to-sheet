@@ -13,3 +13,7 @@ What it shows clients:
 - **Polite and legal by default:** about 1 request per second, an identifying user agent, public pages only.
 - **Clean, typed data:** prices as numbers, ratings as 1-5, stock as an integer, deduplicated by UPC.
 - **Three output formats:** CSV (opens cleanly in Excel), XLSX with a frozen header, or straight into a Google Sheet.
+
+---
+
+MIT licensed. Built with AI assistance (Claude Code) and reviewed by a human.
