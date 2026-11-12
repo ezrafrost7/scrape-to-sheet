@@ -9,6 +9,8 @@ python scrape_books.py                      # all 50 pages (~18 min at the polit
 python scrape_books.py --sheet-id <ID> --key <service_account.json>   # also push to Google Sheets
 ```
 
+Full run, committed in `samples/full_1000/` (books.csv and books.xlsx): **1,000 rows across 50 pages, 1,000 unique UPCs, 50 categories, no empty cells**, scraped on 2026-11-12 at 1 request/sec. `output/` holds a quick one-page test.
+
 What it shows clients:
 - **Polite and legal by default:** about 1 request per second, an identifying user agent, public pages only.
 - **Clean, typed data:** prices as numbers, ratings as 1-5, stock as an integer, deduplicated by UPC.
